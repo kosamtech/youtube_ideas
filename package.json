@@ -1,0 +1,22 @@
+{
+  "name": "youtube_ideas",
+  "version": "1.0.3",
+  "description": "Ideas for youtube videos for our channel",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "keywords": [
+    "youtube",
+    "video",
+    "ideas"
+  ],
+  "author": "kkthecompguy",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "mongoose": "^5.7.1"
+  }
+}
