@@ -35,8 +35,8 @@ app.get('/about', (req, res) => {
   res.render('about');
 });
 
-// app.use('/ideas', Ideas);
-// app.use('/users', Users);
+app.use('/ideas', Ideas);
+app.use('/users', Users);
 
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
