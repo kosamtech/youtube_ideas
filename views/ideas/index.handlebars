@@ -9,5 +9,8 @@
     </form>
   </div>
 {{else}}
-  No Video Idea Found
+  <img src="/img/oops.jpg" alt="Oops!" class="img">
+  <h4>No Video Ideas Found</h4>
+  <p>Hello <span class="text-primary">{{user.name}}</span> , Thank you for registering with us. You don't have any video ideas yet. Create your idea for your next <i class="fab fa-youtube" style="color: #ff0000;"></i>Youtube video</p>
+  <a href="/ideas/add" class="btn btn-secondary btn-sm">Add Video Idea</a>
 {{/each}}
